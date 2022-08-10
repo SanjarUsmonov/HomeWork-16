@@ -127,4 +127,55 @@
         font-size: 18px;
         color: #333D4B;
     }
+    .main__foot{
+        background-color: #2C343E;
+        width: 400px;
+        height: 850px;
+        border-radius: 10px;
+    }
+    .main__foot h1{
+        margin: 0 auto;
+        padding-top: 40px;
+        padding-bottom: 25px;
+        font-family: 'Fraunces';
+        font-size: 40px;
+        width: 350px;
+        text-align: center;
+        color: #fff;
+    }
+    .main__foot p{
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 40px;
+        width: 300px;
+        font-size: 18px;
+        color: #ffffff;
+        padding-bottom: 20px;
+        
+    }
+    .main__footer{
+        margin: 0 auto;
+        margin-top: -600px;
+    }
+    .main__card{
+        width: 280px;
+        height: 380px;
+        background-color: #0E8784;
+        color: #fff;
+        margin: 0 auto;
+        margin-top: 20px;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main__card h1{
+        margin-top: 56px;
+        margin-bottom: 24px;
+    }
+    .main__card p{
+        text-align: center;
+        width: 230px;
+    }
 }
