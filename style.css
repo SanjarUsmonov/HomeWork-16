@@ -327,16 +327,16 @@
 
 @media (min-width:421px) and (max-width:2000px) {
     .container{
-        max-width: 1200px;
+        max-width: 1519px;
         width: 100%;
         margin: 0 auto;
     }
     .site-head{
         margin-top: 52px;
-        width: 1200px;
+        width: 1519px;
     }
     .site-head__nav{
-        width: 1200px;
+        width: 1250px;
         margin: 0 auto;
         margin-bottom: 40px;
         display: flex;
@@ -368,9 +368,10 @@
     .site-head__bg{
         background: url(images/Bitmap.png);
         background-repeat: no-repeat;
-        background-size: 1200px 750px;
-        width: 1200px;
+        background-size: 1519px 1000px;
+        width: 1519px;
         height: 600px;
+        margin: 0 auto;
     }
     .site-head__sub{
         font-family: 'Fraunces';
@@ -395,7 +396,9 @@
         color: #fff;
     }
      .free{
+        width: 1519px;
         text-align: center;
+        margin: 0 auto;
         margin-top: 120px;
         margin-bottom: 13px;
         font-size: 50px;
@@ -407,7 +410,7 @@
         margin: 0 auto;
     }
     .main__cards{
-        width: 1200px;
+        width: 1519px;
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -435,7 +438,7 @@
         color: #333D4B;
     }
     .fooot{
-        width: 1200px;
+        width: 1519px;
         margin: 0 auto;
         display: flex;
         align-items: center;
@@ -472,11 +475,16 @@
         transition: 0.3s;
     }
     .main__content1{
-        width: 1200px;
+        width: 1519px;
+        margin: 0 auto;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+    }
+    .main{
+        width: 1519px;
+        margin: 0 auto;
     }
     .main__content1 h1{
         width: 240px;
@@ -495,7 +503,7 @@
     }
     .main__foot{
         background-color: #2C343E;
-        width: 1300px;
+        width: 1519px;
         margin: 0 auto;
         height: 400px;
         border-radius: 10px;
@@ -507,7 +515,6 @@
         padding-bottom: 25px;
         font-family: 'Fraunces';
         font-size: 40px;
-        width: 350px;
         text-align: center;
         color: #fff;
     }
@@ -523,7 +530,8 @@
     }
     .main__footer{
         margin: 0 auto;
-        margin-top: -200px;
+        width: 1519px;
+        margin-top: -300px;
         display: flex;
         justify-content: space-between;
     }
@@ -559,10 +567,9 @@
        
     }
     .footer{
-        margin-top: 100px;
-        margin:100px auto;
+        margin: 100px auto;
         margin-bottom: 0;
-        width: 100%;
+        width: 1519px;
         height: 150px;
         background-color: #2C343E;
         display: flex;
