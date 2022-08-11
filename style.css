@@ -106,18 +106,18 @@
         font-size: 50px;
         color: #333D4B;
     }
-    .main__content{
+    .main__content1{
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
     }
-    .main__content h1{
+    .main__content1 h1{
         font-size: 24px;
         color: #333D4B;
         font-family: 'Fraunces';
     }
-    .main__content p{
+    .main__content1 p{
         text-align: center;
         margin-top: 20px;
         margin-bottom: 40px;
@@ -179,7 +179,53 @@
     .imgage{
         margin-bottom: 24px;
     }
+    .main__content{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main__content h1{
+        width: 300px;
+        font-size: 24px;
+        color: #333D4B;
+        font-family: 'Fraunces';
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .main__content img{
+        margin: 0 auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .main__content p{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        width:300px;
+        font-size: 15px;
+        color: #333D4B;
+        margin: 0 auto;
+    }
+    .site-head__btn1{
+        margin: 0 auto;
+        margin-top: 50px;
+        width: 217px;
+        height: 57px;
+        background-color: #0E8784;
+        color: #fff;
+        font-size: 18px;
+        font-family: 'Fraunces';
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+    }
     .foot{
+        margin: 0 auto;
+        width: 380px;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -282,6 +328,7 @@
         color: #fff;
     }
     .site-head__btn{
+        margin: 0 auto;
         width: 217px;
         height: 57px;
         background-color: #0E8784;
@@ -317,6 +364,7 @@
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
+
     }
     .main__content h1{
         width: 150px;
@@ -325,7 +373,6 @@
         font-family: 'Fraunces';
         text-align: left;
     }
-    .image{}
     .main__content p{
         text-align: left;
         margin-top: 20px;
@@ -400,10 +447,12 @@
         margin-bottom: 24px;
     }
     .foot{
+        width: 990px;
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 120px;
+       
     }
     .footer{
 
